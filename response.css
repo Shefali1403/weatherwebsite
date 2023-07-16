@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+     /* background-color: rgb(234, 183, 234);  */
+}
+#navbar{
+    height: 700px;
+    margin: 0px 0px;
+}
+#navbar::before{
+    height: 702px;
+}
+#navbar .part1 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 149px;
+}
+#navbar .part1 .logo img{
+    width:54%;
+    
+}
+#navbar .nav{
+    margin: 10px 0px;
+}
+#navbar .nav .menu{
+    margin: 23px 0px;
+}
+#navbar .menu li{
+    padding: 7px 3px;
+    margin: 5px 26px;
+    font-size: 0.9rem;
+}
+#navbar .part1{
+  flex-direction: column;
+  height:265px;
+}
+#navbar input{
+    height: 32px;
+    top:162px;
+    left:100px;
+}
+#navbar .part2{
+    height: 581px;
+/* background-color: red;  */
+margin: 0px 0px;
+}
+#navbar .part2 .content{
+    margin: 20px 9px;
+}
+#navbar .part2 .content h1{
+    font-size: 1rem;
+}
+#navbar .part2 .box2 #text1 {
+    font-size: 3rem;
+}
+#navbar .part2 .content button{
+    width: 37%;
+    margin-top: 24px;
+    padding: 10px 5px;
+}
+#navbar .part2 .box2{
+    width: 46%;
+    height: 35%;
+    margin: 8px 16px;
+}
+#navbar .part2 .box2::before{
+    width: 29%;
+    height: 161px;
+}
+#navbar .part2 .box2 p{
+    font-size: 2rem;
+}
+#part2{
+    height: 490px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+/* background-color: aqua;  */
+}
+#part2 .boxes {
+    margin: 20px 6px;
+}
+#part2 .boxes .box2{
+    height: 189px;
+}
+#part3{
+    /* background-color: blanchedalmond;  */
+    height: 800px;
+    margin: 0px 0px;
+}
+#part3::before{
+    height: 750px;
+}
+#part3 h1{
+    font-size: 2rem;
+    text-align: center;
+}
+#part3 p{
+    text-align: center;
+}
+#part3 .boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+}
+#part3 .boxes .box1,
+#part3 .boxes .box2,
+#part3 .boxes .box3 {
+    height: 162px;
+    justify-content: center;
+    margin: 14px 39px;
+}
+#part3 .boxes h1{
+     font-size: 1.5rem;
+}
+#part3 .boxes .box1::before{
+    width: 58.4%;
+    height: 170px;
+}
+#part3 .boxes .box2::before{
+    left:87px;
+    width:59%;
+
+}
+#part3 .boxes .box3::before{
+    left: 87px;
+    width:60%;
+
+}
+#part4{
+    height: 893px;
+    margin: 0px 0px;
+
+}
+#part4 .citybox{
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(5,auto);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+#part4 .citybox .boxt{
+    justify-content: center;
+}
+#part4 .citybox .egy{
+    width:99%;
+}
+#part4 p{
+    text-align: center;
+    margin: 23px 3px;
+}
+#part4 .boxt .cit{
+    text-align: center;
+}
+#final{
+height: 578px;
+margin: 0px 0px;
+}
+#final .box{
+    margin: 55px 6px;
+}
+#final .box h4{
+    margin: 21px 0px;
+}
+footer{
+    margin: 0px 0px;
+}

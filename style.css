@@ -1,0 +1,364 @@
+* {
+  margin: 0pxp 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100vw;
+  height: 100vh;
+  margin: 0px 0px;
+}
+#navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 500px;
+  color: black;
+  margin: -22px -10px;
+  position: relative;
+}
+#navbar::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* background: url("https://wallpaperaccess.com/full/253796.jpg") repeat center;  */
+  background-color: rgb(247, 243, 243);
+
+  width: 100vw;
+  height: 500px;
+  z-index: -1;
+  /* opacity: 0.9;  */
+}
+#navbar .part1 {
+  display: flex;
+
+  height: 100px;
+}
+#navbar .part1 .logo {
+  width: 25%;
+  margin: 10px 10px;
+}
+#navbar .part1 .logo img {
+  width: 20%;
+}
+#navbar .nav {
+  margin: 10px 80px;
+}
+#navbar .nav .menu {
+  display: flex;
+  margin: 23px -183px;
+}
+#navbar .menu li {
+  list-style: none;
+  margin: 5px 48px;
+  padding: 7px 21px;
+  /* font-family: 'Open Sans', sans-serif;  */
+  font-family: 'Ysabeau Infant', sans-serif;
+   font-size: 1.3rem;  
+   color: black;
+   font-weight: bold;
+}
+#navbar .menu li:hover {
+  background-color: rgb(192, 190, 190);
+  border-radius: 3px;
+  cursor: pointer;
+}
+#navbar input {
+  padding: 5px 10px;
+  margin: -4px 9px;
+  height: 40px;
+  position: absolute;
+  top: 36px;
+  left: 1006px;
+  border: 1px solid rgb(102, 101, 101);
+  border-radius: 3px;
+}
+#navbar .part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 392px;
+}
+#navbar .part2 .content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+#navbar .part2 .content h1 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+#navbar .part2 .content button {
+  width: 25%;
+  padding: 10px 10px;
+  margin: 5px 0px;
+  border: 0px solid white;
+  color: white;
+  background-color: rgb(208, 66, 66);
+  border-radius: 4px;
+  cursor: pointer;
+}
+#navbar .part2 .box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 19%;
+  height: 74%;
+  margin: 8px 20px;
+  border-radius: 10px;
+}
+#navbar .part2 .box2::before {
+  content: "";
+  position: absolute;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz-5HjPpCoKzNa9WsRGT6gjzGeJMTdoEO2iQ&usqp=CAU")
+    repeat center;
+  border-radius: 10px;
+  width: 19%;
+  height: 286px;
+  z-index: -1;
+  filter: brightness(0.7) contrast(0.6);
+}
+#navbar .part2 .box2 p{
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+#navbar .part2 .box2 #text1 {
+  font-size: 4rem;
+  font-family: 'Roboto', sans-serif;
+}
+#navbar .part2 .box2 img {
+  width: 40%;
+}
+
+#part2 {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  width: 100vw;
+  height: 310px;
+  margin: 20px -15px;
+  background-color: white;
+  position: relative;
+}
+#part2 .content {
+  margin: 55px 26px;
+}
+#part2 .content h1 {
+  font-size: 2.3rem;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+#part2 .boxes {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 1rem;
+  margin: 50px 10px;
+}
+#part2 .boxes .box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px rgb(203, 201, 201);
+}
+#part2 .boxes .box2:hover{
+    transition: width 2s ease-in-out;
+    transform:scale(1.1);
+    cursor: pointer;
+}
+#part2 .box2 .hey {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+#part2 .first {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtezqITLpHFjZA-xJ50hSwZgKifh2_Ddy4bT6Hhn4V3X3RgMMUZo7hcmxpYxf3zSC-isE&usqp=CAU")
+    repeat center;
+  filter: brightness(0.6);
+}
+#part2 .sec {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background: url("https://media.istockphoto.com/id/154918211/photo/city-of-dubai-burj-khalifa.jpg?s=612x612&w=0&k=20&c=IQ1upJGlnISqrBcBpmDS8HTCw-u6j08GkrFwV2QEMQk=")
+    repeat center;
+  filter: brightness(0.7);
+}
+#part2 .three {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background: url("https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80")
+    no-repeat center;
+  filter: brightness(0.6);
+}
+#part2 .four {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background: url("https://images.unsplash.com/photo-1571679654681-ba01b9e1e117?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80")
+    no-repeat center;
+  filter: brightness(0.6);
+}
+#part3 {
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: -23px -15px;
+  position: relative;
+  width: 100vw;
+  color: white;
+  /* font-family: 'Roboto', sans-serif;  */
+}
+#part3::before {
+  content: "";
+  position: absolute;
+  background: url("https://wallpaperaccess.com/full/253796.jpg") repeat center;
+  width: 100vw;
+  height: 365px;
+  z-index: -1;
+  opacity: 0.7;
+}
+#part3 .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#part3 .boxes .box1,
+#part3 .boxes .box2,
+#part3 .boxes .box3 {
+  display: flex;
+ flex-direction: column; 
+ height: 171px;
+  margin: 0px 30px;
+  padding: 0px 102px;
+  color: white;
+  border-radius: 7px;
+}
+#part3 .boxes .box1::before {
+  content: "";
+  position: absolute;
+  left: 90px;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20191026/pngtree-palm-beach-sunset-image_320421.jpg")
+    repeat center;
+  width: 26.4%;
+  height: 170px;
+  z-index: -1;
+  opacity: 0.6;
+  filter: brightness(0.5);
+  border-radius: 7px;
+}
+#part3 .boxes .box2::before {
+  content: "";
+  position: absolute;
+  left: 488px;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20191026/pngtree-palm-beach-sunset-image_320421.jpg")
+    repeat center;
+  width: 24%;
+  height: 170px;
+  z-index: -1;
+  opacity: 0.6;
+  filter: brightness(0.5);
+  border-radius: 7px;
+}
+#part3 .boxes .box3::before {
+  content: "";
+  position: absolute;
+  left: 855px;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20191026/pngtree-palm-beach-sunset-image_320421.jpg")
+    repeat center;
+  width: 26%;
+  height: 170px;
+  z-index: -1;
+  opacity: 0.6;
+  filter: brightness(0.5);
+  border-radius: 7px;
+}
+
+#part3 .boxes .text {
+  text-align: center;
+  /* font-family: 'Ysabeau Infant', sans-serif;  */
+}
+#part4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  height: 568px;
+  margin: 23px -15px;
+  background-color: rgb(247, 243, 243);
+}
+#part4 h1 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+#part4 .citybox {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 1.8rem;
+  row-gap: 1.8rem;
+}
+#part4 .citybox .boxt {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px 60px;
+  height: 104px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 2px rgb(203, 201, 201);
+}
+#part4 .citybox .boxt:hover{
+    transition: width 2s ease-in-out;
+    transform:scale(1.2);
+    cursor: pointer;
+}
+#part4 .citybox .boxt img {
+  width: 54px;
+  margin: 15px 0px;
+}
+
+#final {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100vw;
+
+  height: 400px;
+  margin: -23px -15px;
+  color: white;
+  background-color: rgb(58, 58, 58);
+}
+#final .box {
+  margin: 120px 30px;
+}
+#final .box h4 {
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+footer {
+  width: 100vw;
+  background-color: black;
+  color: white;
+  height: 27px;
+  margin: 0px -15px;
+}
+footer p {
+  margin: 3px 0px;
+
+  text-align: center;
+}
