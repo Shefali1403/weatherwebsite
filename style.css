@@ -2,7 +2,6 @@
   margin: 0pxp 0px;
   padding: 0px 0px;
   box-sizing: border-box;
-  background-color: red;
 }
 .container {
   display: grid;
@@ -10,6 +9,7 @@
   width: 100vw;
   height: 100vh;
   margin: 0px 0px;
+  background-color: red;
 }
 #navbar {
   display: flex;
