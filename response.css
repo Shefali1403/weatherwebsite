@@ -1,167 +1,316 @@
-*{
-    margin: 0px;
-    padding: 0px; 
-     /* background-color: rgb(234, 183, 234);  */
+@media  screen and (min-width:985px) and (max-width:1160px) {
+    .container{
+        width: 120vw; 
+    }
+    #navbar{
+        /* background-color: pink;  */
+        width:120vw;
+        height: 90vh;
+    }
+    #navbar::before {
+        width:120vw;
+        /* background-color: red;  */
+    }
+    #navbar .part2{
+        /* background-color: blue;  */
+    }
+    #part2{
+        width:120vw;
+        height:45vh;
+    }
+    #part3{
+        width:120vw;
+        height:52vh;
+    }
+    #part3:before{
+        width:120vw;
+    }
+    #part3 .boxes .box1::before{
+        left:147px;
+         height:18vh;  
+    }
+    #part3 .boxes .box2::before{
+        left:543px;
+         height:18vh;  
+    }
+    #part3 .boxes .box3::before{
+        left:936px;
+        height:18vh;
+    }
+    #part4{
+        width:120vw;
+        height:78vh;
+    }
+    #part4 .citybox .boxt {
+        height:11vh;
+    }
+    #final{
+        width:120vw;
+        height: 54vh;
+    }
+    footer {
+        width:120vw;
+    }
 }
-#navbar{
-    height: 700px;
-    margin: 0px 0px;
-}
-#navbar::before{
-    height: 702px;
-}
-#navbar .part1 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 149px;
-}
-#navbar .part1 .logo img{
-    width:54%;
+@media  screen and (min-width:807px)and (max-width:984px) {
+    .container{
+        width: 151vw; 
+    }
+    #navbar{
+        /* background-color: red;  */
+        width:151vw;
+        height: 90vh;
+    }
+    #navbar::before {
+        width:151vw;
+        /* background-color: red;  */
+    }
+    #navbar .part2{
+        /* background-color: blue;  */
+    }
+    #part2{
+        width:151vw;
+        height:45vh;
+    }
+    #part2 .boxes .box2{
+        width:20vw;
+    }
+    #part3{
+        width:151vw;
+        height:52vh;
+    }
+    #part3:before{
+        width:151vw;
+    }
+    #part3 .boxes .box1::before{
+        left:118px;
+        width:34vw;
+        height:18vh;
+    }
+    #part3 .boxes .box2::before{
+        left:505px;
+        width:34vw;
+        height:18vh;
+    }
+    #part3 .boxes .box3::before{
+        left:882px;
+        width:34vw;
+        height:18vh;
+    }
+    #part4{
+        width:151vw;
+        height:63vh;
+    }
+    #part4 .citybox .boxt {
+        height:11vh;
+    }
+    #final{
+        width:151vw;
+        height: 54vh;
+    }
+    footer {
+        width:151vw;
+    }
     
 }
-#navbar .nav{
-    margin: 10px 0px;
-}
-#navbar .nav .menu{
-    margin: 23px 0px;
-}
-#navbar .menu li{
-    padding: 7px 3px;
-    margin: 5px 26px;
-    font-size: 0.9rem;
-}
-#navbar .part1{
-  flex-direction: column;
-  height:265px;
-}
-#navbar input{
-    height: 32px;
-    top:162px;
-    left:100px;
-}
-#navbar .part2{
-    height: 581px;
-/* background-color: red;  */
-margin: 0px 0px;
-}
-#navbar .part2 .content{
-    margin: 20px 9px;
-}
-#navbar .part2 .content h1{
-    font-size: 1rem;
-}
-#navbar .part2 .box2 #text1 {
-    font-size: 3rem;
-}
-#navbar .part2 .content button{
-    width: 37%;
-    margin-top: 24px;
-    padding: 10px 5px;
-}
-#navbar .part2 .box2{
-    width: 46%;
-    height: 35%;
-    margin: 8px 16px;
-}
-#navbar .part2 .box2::before{
-    width: 29%;
-    height: 161px;
-}
-#navbar .part2 .box2 p{
-    font-size: 2rem;
-}
-#part2{
-    height: 490px;
-    margin: 0px 0px;
-    display: flex;
-    flex-direction: column;
-/* background-color: aqua;  */
-}
-#part2 .boxes {
-    margin: 20px 6px;
-}
-#part2 .boxes .box2{
-    height: 189px;
-}
-#part3{
-    /* background-color: blanchedalmond;  */
-    height: 800px;
-    margin: 0px 0px;
-}
-#part3::before{
-    height: 750px;
-}
-#part3 h1{
-    font-size: 2rem;
-    text-align: center;
-}
-#part3 p{
-    text-align: center;
-}
-#part3 .boxes{
-    display: flex;
-    flex-direction: column;
-    margin-top: 37px;
-}
-#part3 .boxes .box1,
-#part3 .boxes .box2,
-#part3 .boxes .box3 {
-    height: 162px;
-    justify-content: center;
-    margin: 14px 39px;
-}
-#part3 .boxes h1{
-     font-size: 1.5rem;
-}
-#part3 .boxes .box1::before{
-    width: 58.4%;
-    height: 170px;
-}
-#part3 .boxes .box2::before{
-    left:87px;
-    width:59%;
+@media screen and (min-width:710px) and (max-width:806px){
+    .container{
+        width: 176vw; 
+    }
+    #navbar{
+        /* background-color: blue;  */
+        width:176vw;
+        height: 90vh;
+    }
+    #navbar::before {
+        width:176vw;
+        /* background-color: red;  */
+    }
+    #navbar .part2{
+        /* background-color: blue;  */
+    }
+    #part2{
+        width:176vw;
+        height:45vh;
+    }
+    #part2 .boxes .box2{
+        width:26vw;
+    }
+    #part3{
+        width:176vw;
+        height:52vh;
+    }
+    #part3:before{
+        width:176vw;
+    }
+    #part3 .boxes .box1::before{
+        width:50vw;
+        height:18vh;
+    }
+    #part3 .boxes .box2::before{
+        left:511px;
+        width:44vw;
+        height:18vh;
+    }
+    #part3 .boxes .box3::before{
+        left:889px;
+        width:45vw;
+        height:18vh;
+    }
+    #part4{
+        width:176vw;
+        height:63vh;
+    }
+    #part4 h1{
+        margin-top: -77px;
+    }
+    #part4 p{
+        margin: 35px 1px;
+    }
+    #part4 .citybox .boxt {
+        height:11vh;
+    }
+    #final{
+        width:176vw;
+        height: 54vh;
+    }
+    footer {
+        width:176vw;
+    }
 
 }
-#part3 .boxes .box3::before{
-    left: 87px;
-    width:60%;
-
+@media screen and (min-width: 500px) and (max-width:709px){
+    .container{
+        width: 234vw; 
+    }
+    #navbar{
+        /* background-color: pink;  */
+        width:234vw;
+        height: 90vh;
+    }
+    #navbar::before {
+        width:234vw;
+        /* background-color: red;  */
+    }
+    #navbar .part2{
+        /* background-color: blue;  */
+    }
+    #part2{
+        width:234vw;
+        height:45vh;
+    }
+    #part2 .boxes .box2{
+        width:26vw;
+    }
+    #part3{
+        width:234vw;
+    }
+    #part3:before{
+        width:234vw;
+    }
+    #part3 .boxes .box1::before{
+        left:159px;
+        width:57vw;
+        height:20vh;
+    }
+    #part3 .boxes .box2::before{
+        left:545px;
+        width:57vw;
+        height:20vh;
+    }
+    #part3 .boxes .box3::before{
+        left:930px;
+        width:57vw;
+        height:20vh;
+    }
+    #part4{
+        width:234vw;
+        height:63vh;
+    }
+    #part4 h1{
+        margin-top: -77px;
+    }
+    #part4 p{
+        margin: 35px 1px;
+    }
+    #part4 .citybox .boxt {
+        height:11vh;
+    }
+    #final{
+        width:234vw;
+        height: 54vh;
+    }
+    footer {
+        width:234vw;
+    }
+    
 }
-#part4{
-    height: 893px;
-    margin: 0px 0px;
-
-}
-#part4 .citybox{
-    grid-template-columns: repeat(2,auto);
-    grid-template-rows: repeat(5,auto);
-    column-gap: 1rem;
-    row-gap: 1rem;
-}
-#part4 .citybox .boxt{
-    justify-content: center;
-}
-#part4 .citybox .egy{
-    width:99%;
-}
-#part4 p{
-    text-align: center;
-    margin: 23px 3px;
-}
-#part4 .boxt .cit{
-    text-align: center;
-}
-#final{
-height: 578px;
-margin: 0px 0px;
-}
-#final .box{
-    margin: 55px 6px;
-}
-#final .box h4{
-    margin: 21px 0px;
-}
-footer{
-    margin: 0px 0px;
+@media screen and (min-width:300px ) and (max-width:499px){
+    .container{
+        width: 234vw; 
+    }
+    #navbar{
+        /* background-color: blue;  */
+        width:311vw;
+        height: 90vh;
+    }
+    #navbar::before {
+        width:311vw;
+        /* background-color: red;  */
+    }
+    #navbar .part2{
+        /* background-color: blue;  */
+    }
+    #part2{
+        width:311vw;
+        height:45vh;
+    }
+    #part2 .boxes .box2{
+        width:40vw;
+    }
+    #part3{
+        width:311vw;
+        height:52vh;
+    }
+    #part3:before{
+        width:311vw;
+    }
+    #part3 .boxes .box1::before{
+        width:66vw;
+        height: 21vh;
+    }
+    #part3 .boxes .box2::before{
+        left:488px;
+        width:66vw;
+        height: 21vh;
+    }
+    #part3 .boxes .box3::before{
+        left:874px;
+        width:66vw;
+        height: 21vh;
+    }
+    #part4{
+        width:311vw;
+        height:66vh;
+    }
+    #part4 .citybox .boxt img {
+        width:10vw;
+    }
+    #part4 h1{
+        margin-top: -77px;
+    }
+    #part4 p{
+        margin: 35px 1px;
+    }
+    #part4 .citybox .boxt {
+        height:11vh;
+    }
+    #final{
+        width:311vw;
+        height: 54vh;
+    }
+    footer {
+        width:311vw;
+    }
+    
 }
